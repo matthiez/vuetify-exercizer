@@ -20,6 +20,10 @@ export const SPLITS = [
             [
                 [mgByText('legs'), mgByText('calves'), mgByText('shoulders'), mgByText('biceps')],
                 [mgByText('chest'), mgByText('triceps'), mgByText('back')]
+            ],
+            [
+                [mgByText('legs'), mgByText('calves'), mgByText('chest'), mgByText('triceps')],
+                [mgByText('shoulders'), mgByText('biceps'), mgByText('back'), mgByText('abs')]
             ]
         ]
     },
@@ -45,6 +49,12 @@ export const SPLITS = [
                 [mgByText('neck'), mgByText('shoulders')],
                 [mgByText('legs'), mgByText('biceps')],
                 [mgByText('chest'), mgByText('triceps')]
+            ],
+            [
+                [mgByText('shoulders'), mgByText('calves')],
+                [mgByText('neck'), mgByText('back')],
+                [mgByText('legs'), mgByText('triceps')],
+                [mgByText('chest'), mgByText('biceps')]
             ]
         ]
     },

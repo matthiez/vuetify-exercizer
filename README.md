@@ -1,4 +1,4 @@
-# Workout Generator
+# A simple workout plan generator
 
 **USAGE**
 
