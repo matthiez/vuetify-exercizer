@@ -14,20 +14,20 @@
                         <v-flex d-flex xs6
                                 v-for="(bodyPart, bodyPartIndex) in combo"
                                 :key="bodyPartIndex">
-                            <v-list subheader>
+                            <v-list subheader width="100%">
                                 <v-subheader class="justify-center">
                                     {{$t(weekdays[bodyPartIndex])}}
                                 </v-subheader>
 
-                                <v-list-tile text-center
+                                <v-list-item text-center
                                              v-for="bp in bodyPart"
                                              :key="bp.text">
-                                    <v-list-tile-content>
-                                        <v-list-tile-title class="text-xs-center">
+                                    <v-list-item-content>
+                                        <v-list-item-title class="text-xs-center">
                                             {{$t(bp.text)}}
-                                        </v-list-tile-title>
-                                    </v-list-tile-content>
-                                </v-list-tile>
+                                        </v-list-item-title>
+                                    </v-list-item-content>
+                                </v-list-item>
                             </v-list>
                         </v-flex>
                     </v-layout>

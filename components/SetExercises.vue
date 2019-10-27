@@ -22,20 +22,20 @@
                                     v-for="(exercise, i) in selected[n].map(eid => $root.$exercizer.EXERCISES.filter(({id}) => id === eid)[0])"
                                     :key="i"
                                     class="eoo-xrczr-daily-exercise">
-                                <v-list subheader>
+                                <v-list subheader width="100%">
                                     <v-subheader class="justify-center headline">
                                         {{exercise.name}}
                                     </v-subheader>
 
-                                    <v-list-tile text-center>
-                                        <v-list-tile-content
+                                    <v-list-item text-center>
+                                        <v-list-item-content
                                                 v-for="(muscleGroup, k) in exercise.muscleGroups"
                                                 :key="k">
-                                            <v-list-tile-title class="text-xs-center">
+                                            <v-list-item-title class="text-xs-center">
                                                 {{$t(muscleGroup.text)}}
-                                            </v-list-tile-title>
-                                        </v-list-tile-content>
-                                    </v-list-tile>
+                                            </v-list-item-title>
+                                        </v-list-item-content>
+                                    </v-list-item>
                                 </v-list>
                             </v-flex>
                         </v-layout>
