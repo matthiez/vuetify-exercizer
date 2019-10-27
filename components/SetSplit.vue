@@ -5,7 +5,7 @@
                     :class="`elevation-${hover ? 12 : 2}`"
                     text-xs-center
                     slot-scope="{ hover }">
-                <v-btn flat @click="onClickSplit(i)">{{s.text}}<br>{{s.subheading}}</v-btn>
+                <v-btn text @click="onClickSplit(i)">{{s.text}}<br>{{s.subheading}}</v-btn>
             </v-flex>
         </v-hover>
 

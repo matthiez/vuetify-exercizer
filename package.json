@@ -1,16 +1,18 @@
 {
   "name": "trainingsplan-generator",
-  "version": "1.0.0",
-  "description": "Workout schedule generator for Vuetify.",
+  "version": "2.0.0",
+  "url": "https://github.com/matthiez/vuetify-exercizer",
+  "description": "Workout schedule generator for Vuetify applications.",
   "author": "André Matthies",
+  "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.8.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.17",
-    "@fortawesome/free-solid-svg-icons": "^5.8.1",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-i18n": "^5.8.5",
-    "vuetify": "^1.5.11",
-    "xlsx": "^0.14.2"
+    "nuxt-i18n": "^6.3.0",
+    "vuetify": "^2.1.7",
+    "xlsx": "^0.15.1"
   }
 }
