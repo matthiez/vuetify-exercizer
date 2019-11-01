@@ -1,18 +1,52 @@
 {
-  "name": "trainingsplan-generator",
+  "name": "vuetify-exercizer",
   "version": "2.0.0",
-  "url": "https://github.com/matthiez/vuetify-exercizer",
   "description": "Workout schedule generator for Vuetify applications.",
+  "main": "dist/vuetify-exercizer.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vue-cli-service build --target lib ./src/VuetifyExercizer.vue",
+    "prepare": "install-peers",
+    "serve": "vue-cli-service serve",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthiez/vuetify-exercizer.git"
+  },
   "author": "André Matthies",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthiez/vuetify-exercizer/issues"
+  },
+  "homepage": "https://github.com/matthiez/vuetify-exercizer#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-e2e-nightwatch": "^4.0.5",
+    "@vue/cli-plugin-typescript": "^4.0.5",
+    "@vue/cli-plugin-unit-jest": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "chromedriver": "^78.0.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "geckodriver": "^1.19.1",
+    "install-peers-cli": "^2.1.1",
+    "sass": "^1.23.2",
+    "sass-loader": "^8.0.0",
+    "typescript": "^3.6.4",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.15.0",
+    "vuetify": "^2.1.9"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/vue-fontawesome": "^0.1.7",
-    "nuxt-fontawesome": "^0.4.0",
-    "nuxt-i18n": "^6.3.0",
-    "vuetify": "^2.1.7",
     "xlsx": "^0.15.1"
   }
 }

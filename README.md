@@ -1,24 +1,54 @@
-# A simple workout plan generator for VuetifyJS applications
+# VuetifyExercizer
+
+A simple workout plan generator for VuetifyJS applications.
+Please notice that for now, German is the only included language.
 
 **USAGE**
 
-1. Create a plugin 
+Import the default export and render the component.
 
-    ```exercizer.js```
-    ```import Exercizer from "../components/Exercizer"```
-    ```Vue.use(Exercizer)```
+```vue
+    <template>
+       <v-app>
+            <vuetify-exercizer></vuetify-exercizer>
+       </v-app>
+    </template>
+
+       <script>
+           import VuetifyExercizer from "vuetify-exercizer"
+       
+           export default {
+               components: {VuetifyExercizer},
+           };
+       </script>
+```
+
+**Use with Nuxt.js** (optional)
+
+To make it compatible with Nuxt add the translations to nuxt-i18n options in your nuxt.config.js.
+
+```javascript
+    module.exports = {
+        modules: [
+            ['nuxt-i18n', {
+                    vueI18n: {
+                        messages: {
+                            de: {
+                                exercizer: require('vuetify-exercizer/locales/de.json'),
+                            }
+                        }
+                    }
+                }
+            ]
+        ]
+    };
+```
    
-2. Add to nuxt.config.js
+**TODO**
 
-    ```{plugins: ['@/plugins/exercizer']}```
-    
-    ```const   {TRANSLATIONS} = require ("components/Exercizer/exercizer")```
-    
-    ```...[modules: {vueI18n: {messages: {de: {exercizer: require('vuetify-exercizer/translations').de}}}}]...```
-    
-3. Use on your page ```<exercizer></exercizer>```
-
-***TODO***
-
-- Add english and other translations
+- Add translations
 - Add tests
+
+**License**
+
+This project is covered by the MIT license. See LICENSE for more info.

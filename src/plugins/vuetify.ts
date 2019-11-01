@@ -1,0 +1,60 @@
+import Vue from 'vue'
+import Vuetify, {
+    VApp,
+    VAutocomplete,
+    VBtn,
+    VCard,
+    VDivider,
+    VStepperHeader,
+    VContainer,
+    VFadeTransition,
+    VFlex,
+    VFooter,
+    VHover,
+    VLayout,
+    VList,
+    VListItem,
+    VListItemTitle,
+    VNavigationDrawer,
+    VSelect,
+    VStepper,
+    VStepperItems,
+    VStepperStep,
+    VSubheader,
+    VToolbar,
+    VStepperContent,
+    VTextField,
+    VListItemContent
+} from 'vuetify/lib';
+
+const components = {
+    VApp,
+    VAutocomplete,
+    VTextField,
+    VDivider,
+    VListItemContent,
+    VStepperHeader,
+    VStepperContent,
+    VBtn,
+    VCard,
+    VContainer,
+    VFadeTransition,
+    VFlex,
+    VFooter,
+    VHover,
+    VLayout,
+    VList,
+    VListItem,
+    VListItemTitle,
+    VNavigationDrawer,
+    VSelect,
+    VStepper,
+    VStepperItems,
+    VStepperStep,
+    VSubheader,
+    VToolbar,
+};
+
+Vue.use(Vuetify, {components});
+
+export default new Vuetify();
