@@ -1,8 +1,8 @@
 {
   "name": "vuetify-exercizer",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Workout schedule generator for Vuetify applications.",
-  "main": "dist/vuetify-exercizer.js",
+  "main": "dist/vuetify-exercizer.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "vue-cli-service build --target lib ./src/VuetifyExercizer.vue",
