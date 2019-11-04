@@ -1,3 +1,8 @@
+export type ISetCombo = {
+    combos: Combo[]
+    weekdays: string[]
+}
+
 export type MuscleGroup = {
     id: number;
     text: string;

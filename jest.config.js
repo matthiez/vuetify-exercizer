@@ -1,3 +1,9 @@
+//const esModules = ['vuetify'].join('|');
+
 module.exports = {
-    preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel'
+    preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
+    transformIgnorePatterns: [], //[`/node_modules/(?!${esModules})`],
+    "setupFiles": [
+        "./tests/unit/_setup.ts"
+    ]
 };

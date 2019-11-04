@@ -59,6 +59,7 @@
 
 <script lang="ts">
     import {Vue, Component, Prop, Inject} from 'vue-property-decorator'
+
     const XLSX = require('xlsx/dist/xlsx.mini.min');
     import {Combo, Exercise, IExercizer, MuscleGroup} from "@/types";
 

@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    //"declaration": true,
-    //"declarationDir": "dist/types",
     "resolveJsonModule": true,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "allowJs": false,
+    "allowJs": true,
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -34,10 +32,8 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.ts"
   ],
   "exclude": [
     "node_modules"

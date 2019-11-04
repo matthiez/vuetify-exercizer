@@ -1,13 +1,17 @@
 <template>
-    <div>
+    <div id="set_weekdays">
         <v-select
+                :menu-props="{contentClass: 'exercizer-weekdays'}"
                 :counter='split'
                 :items="days.map(d => ({text: this.$t(d), value: d}))"
                 :label="$t('exercizer.setWeekdays.chooseDays')"
                 multiple
-                required
                 :rules="rules"
                 v-model="weekdays"
+                chips
+                deletable-chips
+                clearable
+                open-on-clear
         ></v-select>
 
         <v-btn

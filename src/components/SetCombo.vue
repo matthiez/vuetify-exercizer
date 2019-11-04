@@ -37,14 +37,14 @@
 
 <script lang="ts">
     import {Component, Prop, Vue} from 'vue-property-decorator'
-    import {Combo, ComboEvent} from "@/types";
+    import {Combo, ComboEvent, ISetCombo} from "@/types";
 
     @Component
-    export default class SetCombo extends Vue {
+    export default class SetCombo extends Vue implements ISetCombo {
         @Prop({default: () => []}) combos!: Combo[];
         @Prop({default: () => []}) weekdays!: string[];
 
-        onSetCombo(comboIndex: number) {
+        onSetCombo(comboIndex: number): void {
             this.$emit('set-combo', {comboIndex} as ComboEvent);
         }
     }
