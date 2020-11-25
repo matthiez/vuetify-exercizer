@@ -4728,9 +4728,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.16.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.16.1.tgz#827f49ca96eae006d8a2a0d5e3acd56041c26fc5"
-  integrity sha512-pyyiU56NR1XSm8M/l1QDKGGCA2n2GrcTxFahBo4v/2dH3gy4IiALczwhC9YJicyjoRh6JQWM+h3PvY1ZZ+D0+g==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -6758,11 +6758,6 @@ multicast-dns@^6.0.1:
   dependencies:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
-
-mutationobserver-shim@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#65869630bc89d7bf8c9cd9cb82188cd955aacd2b"
-  integrity sha512-gciOLNN8Vsf7YzcqRjKzlAJ6y7e+B86u7i3KXes0xfxx/nfLmozlW1Vn+Sc9x3tPIePFgc1AeIFhtRgkqTjzDQ==
 
 mz@^2.4.0:
   version "2.7.0"
@@ -9989,6 +9984,11 @@ vue-loader@^15.7.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-material-design-icons@^4.1.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/vue-material-design-icons/-/vue-material-design-icons-4.11.0.tgz#11356194846a5806d958ede531291605cc314b33"
+  integrity sha512-3Tyeqi9jtONQ/x8WkJqiBs4t5Bd5O1t7RdM/GIPKVYoVdaRy0oy3nbRjnMGyONBlqC/NpPjzhWeoZWUMEI04nA==
 
 vue-property-decorator@^8.3.0:
   version "8.3.0"
